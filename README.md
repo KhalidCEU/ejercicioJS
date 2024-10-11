@@ -1,29 +1,32 @@
-# ejercicioJS
+# EjercicioJS - Sistemas Web I
 
-This template should help get you started developing with Vue 3 in Vite.
+Este ejercicio consiste en crear un **generador de contraseñas** básico a partir de un diccionario
+en **JavaScript** (JS)
 
-## Recommended IDE Setup
+Requisitos pedidos por el ejercicio para la generación de contraseñas:
+- Selección de numero de palabras (1 - 10)
+- Las palabras deben empezar por mayúscula
+- Ejemplo: AcrataAfacaAbsitAgape
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+<br>
+Para acelerar el desarrollo front-end se ha usado el framework **Vue.js**.
 
-## Customize configuration
+## Info
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Fichero principal: **[Home.vue](/src/views/Home.vue)**
 
-## Project Setup
+Las palabras del diccionario se cogieron de [este sitio](https://randomwordgenerator.com/)
+
+## Uso
+
+Primero, instale las dependencias
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+Lance el proyecto (modo dev)
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
