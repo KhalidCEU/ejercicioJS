@@ -9,7 +9,12 @@ Requisitos pedidos por el ejercicio para la generación de contraseñas:
 - Ejemplo: AcrataAfacaAbsitAgape
 
 <br>
+
 Para acelerar el desarrollo front-end se ha usado el framework **Vue.js**.
+
+<div align="center">
+    <video src="https://github.com/user-attachments/assets/d0a0909f-dade-4967-96d9-b5c164716889">
+</div>
 
 ## Info
 
