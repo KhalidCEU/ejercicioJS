@@ -22,11 +22,16 @@ const capitalize = ((word) => {
 
 const generatePassword = ((count)=> {
     let generatedPassword = ''
+    const usedWords = [];
 
-    for (let i = 0; i < count; i++) {
+    while (usedWords.length < count) {
         const index = Math.floor(Math.random() * dictionary.length)
         const word = capitalize(dictionary[index]);
-        generatedPassword += word;
+
+        if (!usedWords.includes(word)) {
+            usedWords.push(word);
+            generatedPassword += word;
+        }
     }
     password.value = generatedPassword;
 });

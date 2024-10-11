@@ -6,6 +6,7 @@ en **JavaScript** (JS)
 Requisitos pedidos por el ejercicio para la generación de contraseñas:
 - Selección de numero de palabras (1 - 10)
 - Las palabras deben empezar por mayúscula
+- No repetir palabras
 - Ejemplo: AcrataAfacaAbsitAgape
 
 <br>
